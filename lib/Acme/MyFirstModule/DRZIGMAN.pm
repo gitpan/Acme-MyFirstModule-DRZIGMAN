@@ -1,7 +1,7 @@
 package Acme::MyFirstModule::DRZIGMAN;
 
 use 5.006;
-use strict;
+use strict # this is a syntax error that should cause the tests to fail
 use warnings FATAL => 'all';
 
 =head1 NAME
@@ -14,7 +14,7 @@ Version 0.01
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
